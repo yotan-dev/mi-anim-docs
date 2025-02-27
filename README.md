@@ -322,6 +322,14 @@ However, if you try to change the order or rewrite the order in the page rendere
 The best method for adding or appending animations is to replace the target skeleton with your custom one.
 If you leave the animation strings intact and all settings at their defaults, then edit and add your custom animations, you should be able to achieve your goals.
 
+**Draw Order:**
+
+The only opportunity you will have to change the draw order is while using Spine. If you want to stop your newly added body part/weapon/shirt from clipping with other body parts, then you will need to change the draw order. 
+This is very simple. In the right panel you simply need to expand the 'Draw Order' list and then select your newly added art. 
+Use + and - to move it up and down the list, 
+OR 
+Shift + and shift - to move it 5 slots at a time.
+
 ### Using Animations from Other Games
 You can easily use any animation from any game.
 
