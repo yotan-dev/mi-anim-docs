@@ -5,3 +5,8 @@
 > Some content may not be suitable for all ages.
 
 This is a collection of guides and resources to help you get started with modding Mad Island.
+
+- [Minimal Unity project](./minimal-unity-project.md)
+- [Animations](./animations/README.md)
+- [Items](./items/README.md)
+
