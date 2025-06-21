@@ -45,20 +45,25 @@ It does not include the game assets, but this is something for another day.
 Next, we will set up Yotan Mod Core so you can get started adding stuff.
 
 
-## Adding Yotan Mod Core
+## Updating
 
-Yotan Mod Core is a modding framework for Mad Island, it enables you to do several things
-on the game without needing to dig through the code.
+Whenever the game updates, you will most likely want to update your project as well.
 
-> [!NOTE]
-> This guide is only explaining how to set it up to your Unity project.
-> Once you start using it, any mod you create MUST depend on YotanModCore or it won't work.
+> [!WARNING]
+> DON'T drag and drop the `Assembly-CSharp.dll` file, it will cause issues.
 
-1. Download Yotan Mod Core from [Github](https://github.com/yotan-dev/mad-island-mods)
-2. Extract it somewhere
-3. Drag and drop the `YotanModCoreDefinitions.dll` file into the Plugins folder
+1. On Windows File Explorer, open your Unity Project and go to `Assets/Plugins` folder
+2. Copy the new version of `Assembly-CSharp.dll` into it, and accept replacing the old one
+3. Go back to Unity and it should recompile and work in the new version
 
-It should recompile your scripts and work just fine
+
+## Next steps
+
+Now that we have a project, we can start adding stuff to it.
+
+You most likely will want to use Yotan Mod Core to get started, as it will ease your work.
+
+- [Adding Yotan Mod Core to Unity project](./unity-project-yotan-mod-core.md)
 
 
 ## Creating from scratch and reasoning
