@@ -11,7 +11,7 @@ as a starting point for creating customizations.
 2. Download Spine Unity Runtime v3.8 from [Spine site](https://pt.esotericsoftware.com/spine-unity-download)
 	- Direct link: [spine-unity 3.8 for Unity 2017.1-2020.3](https://esotericsoftware.com/files/runtimes/unity/spine-unity-3.8-2021-11-10.unitypackage)
 3. Have a copy of Mad Island installed -- We will reference it as `<MadIsland folder>`
-4. Download the [project template](./assets/unity-project/mad-island-template.zip) -- We will reference it as `template`
+4. Download the [project template](./assets/mad-island-template.zip) -- We will reference it as `template`
 	- At the end of this doc, there will be an explanation on how this template was created and why certain things are done.
 
 
